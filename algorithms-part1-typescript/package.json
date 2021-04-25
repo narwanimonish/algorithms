@@ -1,0 +1,17 @@
+{
+  "name": "algorithms-part1-typescript",
+  "version": "1.0.0",
+  "description": "This is implementation of lectures & exercieses of this course on coursera https://www.coursera.org/learn/algorithms-part1",
+  "main": "index.js",
+  "repository": "https://github.com/narwanimonish/algorithms.git",
+  "author": "Monish Narwani",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc --outDir dist --rootDir ",
+    "start": "tsc -w --outDir dist --rootDir "
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
