@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc --outDir dist --rootDir ",
     "start": "tsc -w --outDir dist --rootDir ",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "devDependencies": {
     "@types/jest": "^26.0.22",
